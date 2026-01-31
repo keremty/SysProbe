@@ -61,6 +61,7 @@ Summary fields:
 - `entropy_alerts`: MEM_PRIVATE + RWX regions with high entropy.
 - `risk_score`: highest severity found across all correlated findings.
 <img src="assets/blue-line.svg" alt="" width="100%" />
+
 ## Screenshot
 
 ![Summary](assets/summary.png)
