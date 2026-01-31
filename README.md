@@ -60,11 +60,11 @@ Summary fields:
 - `integrity_violations`: modules with inline or hash mismatches (after relocation masking).
 - `entropy_alerts`: MEM_PRIVATE + RWX regions with high entropy.
 - `risk_score`: highest severity found across all correlated findings.
-
+<img src="assets/blue-line.svg" alt="" width="100%" />
 ## Screenshot
 
 ![Summary](assets/summary.png)
-
+<img src="assets/blue-line.svg" alt="" width="100%" />
 ```mermaid
 flowchart TD
   A["Target PID"] --> B["OpenProcess + Memory Map"];
